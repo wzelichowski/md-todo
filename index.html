@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <title>mdbootstrap - zadanie</title>
+</head>
+<body>
+  <div class="container">
+      <div class="header">
+        <h1>simple to-do list</h1>
+      </div>
+      <div class="row">
+          <form id="task-form">
+              <div class="six columns">
+                  <label for="task">TITLE (required)</label>
+                  <input class="u-full-width" type="text" placeholder="Add title for your task" id="task-title">
+              </div>
+              <div class="six columns">
+                  <label for="exampleRecipientInput">DESCRIPTION (optional)</label>
+                  <input class="u-full-width" type="text" placeholder="Give your task a nice description" id="task-desc">
+              </div>
+              <input class="button-primary" type="submit" value="Add task!">  
+          </form>
+        </div>
+        <div class="list">
+          <h4><strong>List of your tasks:</strong></h4>
+          <ul class="task-list">
+          </ul>
+          <a href="#" class="remove-last button">Remove last task</a>
+          <a href="#" class="clear-tasks button button-primary">Clear all tasks</a>
+        </div>
+  </div>
+  
+<script src="app.js"></script>
+</body>
+</html>
